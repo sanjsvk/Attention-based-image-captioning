@@ -100,7 +100,6 @@ that our model is able to reproduce significantly good captions. The captions ar
 appropriate and they report outstanding BLEU scores.
 <br/><center><img src="https://github.com/Gourang97/attention-based-image-captioning/blob/main/Result%20images/result_dog.png" width="800" height="400"></center></p>
 
-## Conclusion
 <p align = "justify">
 The attention mechanism is highly utilized in recent years and is just the start of much more state of
 the art systems. Our trained model shows good performance on Flicker 8k dataset using the BLEU
@@ -110,20 +109,3 @@ training images. We can also alter the evaluation method i.e we could use beam s
 generate better captions. The attention model successfully captures the important features from an
 image and generates semantically sound captions as well. We can further work on its improvement
 so as to improve on the BLEU scores and predict more closer ground truth captions for an image.</p>
-
-## Future Scope
-
-In order to further improve the accuracy scores, we can try different things like:
-- Use of the larger datasets, especially MS COCO dataset or the Stock3M dataset which is 26
-times larger than MS COCO.
-- Implement different attention mechanism like Adaptive Attention using Visual Sentinel and
-Semantic Attention [6].
-- Implementing a Transformer based model which should perform much better than GRU.
-- Implementing a better architecture for image feature extraction like Inception, Xception.
-- We can do more hyperparameter tuning(learning rate, batch size, number of units, dropout
-rate) in order to generate better captions.
--  We also want to address issues like model monitoring and interpretability using several
-different methods.
-
-
-
