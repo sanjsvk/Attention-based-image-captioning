@@ -45,7 +45,7 @@ words in the data.
 - Padded all the sequence to be the same length as the longest one.
 
 ## Model Architecture
-<p align = "justify"> We are using the Local attention based architecture for our model [4].Firstly, it produces the encoder
+<p align = "justify"> We are using the Local attention based architecture for our model.Firstly, it produces the encoder
 hidden states, i,e encoder will produce hidden states for all the images in the input sequences. Then
 the alignment score is being calculated for each hidden state of the encoder and the decoder’s previous
 hidden state. These score are then combined and softmax is applied on them. To generate the
